@@ -30,6 +30,7 @@ p, h1, h2, h3, h4, h5 {
 .bg {
     /* The image used */
     background-image: url("../img/carnival.jpg");
+    /*this doesnt work either*/
 
     /* Full height */
     height: 100%;
@@ -49,10 +50,11 @@ p, h1, h2, h3, h4, h5 {
 .fullsecreen-img-1 {
     /*the image used*/
     background-image: url("../img/carnival.jpg");
+    /*tbh idk if this thing even works*/
 }
 
 .black-shadow {
-	text-shadow: 2px 2px 5px #000000;
+	text-shadow: 3px 3px 5px #000000;
 }
 
         
@@ -73,4 +75,22 @@ p, h1, h2, h3, h4, h5 {
 
 .overlay {
     background: rgba(0,0,0,0.5)
+}
+
+.halfscreen-img {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    object-fit: contain;
+    overflow: hidden;
+
+}
+
+.w3-cell-row {
+    height: 3%;
 }
